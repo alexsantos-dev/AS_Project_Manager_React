@@ -1,5 +1,22 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name": "Dominating",
+      "budget": "144",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 2
+    }
+  ],
   "categories": [
     {
       "id": 1,
