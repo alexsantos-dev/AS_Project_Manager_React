@@ -16,4 +16,13 @@
 
 .colunm{
     flex-direction: column;
+    justify-content: flex-start;
+}
+
+.center{
+    justify-content: center;
+}
+
+.left{
+    justify-content: left;
 }
