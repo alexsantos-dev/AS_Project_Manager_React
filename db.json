@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Dominating",
-      "budget": "144",
+      "name": "dytrdtrdtrd",
+      "budget": "7786",
       "category": {
         "id": "1",
         "name": "infra"
@@ -12,9 +12,26 @@
       "id": 1
     },
     {
+      "name": "Growth Fitness",
+      "budget": "6666666",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
       "cost": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "Rian Alex Dos Santos Pereira",
+      "budget": "54566",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
