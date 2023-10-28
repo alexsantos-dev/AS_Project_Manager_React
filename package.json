@@ -9,9 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "backend": "json-server --watch db.json --port 5000",
-    "predeploy": "npm run build",
-    "deploy": "main -d dist"
+    "backend": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "json-server": "^0.17.4",
