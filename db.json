@@ -7,8 +7,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 333,
+      "services": [
+        {
+          "name": "vdvsdvv",
+          "cost": "333",
+          "description": "foofjgid224",
+          "id": "429f6c86-6d66-41a4-a487-bfde44b3c0ab"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,7 +25,7 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
+      "cost": 1600001831012,
       "services": [],
       "id": 2
     },
@@ -54,17 +61,6 @@
       "cost": 0,
       "services": [],
       "id": 6
-    },
-    {
-      "name": "Growth Fitness utd",
-      "budget": "777777",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
     },
     {
       "name": "Rian Alex dos Santos Pereira",
