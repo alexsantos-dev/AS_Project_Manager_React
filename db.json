@@ -83,6 +83,24 @@
       "cost": 0,
       "services": [],
       "id": 10
+    },
+    {
+      "name": "wefefwf",
+      "budget": "6",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 2,
+      "services": [
+        {
+          "name": "catar coco",
+          "cost": "2",
+          "description": "e isso memeo",
+          "id": "4298f7b5-a386-4b1b-b5b9-fb51416c8238"
+        }
+      ],
+      "id": 11
     }
   ],
   "categories": [
