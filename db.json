@@ -101,6 +101,17 @@
         }
       ],
       "id": 11
+    },
+    {
+      "name": "qkusqyuyqw",
+      "budget": "12345",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 12
     }
   ],
   "categories": [
