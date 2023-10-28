@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 import Select from "../form/Select"
 import SubmitButton from "../form/SubmitButton"
-import Input from "../../components/form/Input"
+import Input from "../form/Input"
 import styles from "./ProjectForm.module.css"
 
 function ProjectForm({ handleSubmit, btnText, projectData }) {

@@ -8,14 +8,7 @@
         "name": "Desenvolvimento"
       },
       "cost": 333,
-      "services": [
-        {
-          "name": "vdvsdvv",
-          "cost": "333",
-          "description": "foofjgid224",
-          "id": "429f6c86-6d66-41a4-a487-bfde44b3c0ab"
-        }
-      ],
+      "services": [],
       "id": 1
     },
     {
@@ -101,17 +94,6 @@
         }
       ],
       "id": 11
-    },
-    {
-      "name": "qkusqyuyqw",
-      "budget": "12345",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 12
     }
   ],
   "categories": [
