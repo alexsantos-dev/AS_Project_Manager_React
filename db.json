@@ -112,6 +112,17 @@
         }
       ],
       "id": 12
+    },
+    {
+      "name": "Frelisbelton",
+      "budget": "900",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 13
     }
   ],
   "categories": [
