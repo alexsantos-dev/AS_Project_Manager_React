@@ -94,6 +94,24 @@
         }
       ],
       "id": 11
+    },
+    {
+      "name": "teste alpha build 1",
+      "budget": "617451874",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 50,
+      "services": [
+        {
+          "name": "coisar",
+          "cost": "50",
+          "description": "talesbeirado",
+          "id": "078367ea-9292-40e4-98b7-08df53f8c627"
+        }
+      ],
+      "id": 12
     }
   ],
   "categories": [
