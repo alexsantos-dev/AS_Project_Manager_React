@@ -9,8 +9,6 @@ import Container from './components/layout/Container'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Project from './components/pages/Project'
-import Mensagens from './components/pages/Mensagem'
-import Mensagem from './components/pages/Mensagens'
 
 function App() {
   return (
@@ -25,8 +23,6 @@ function App() {
           <Route path='/newproject' element={<NewProject/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/projects/:id' element={<Project/>}/>
-          <Route path='/mensagens' element={<Mensagem/>}/>
-          <Route path='/mensagens/:id' element={<Mensagens/>}/>
         </Routes>
         </Container>
        <Footer/>  
