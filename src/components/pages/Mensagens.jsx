@@ -1,5 +1,7 @@
 import {useEffect, useState} from "react"
-import styles from "../pages/Project.module.css"
+import styles from "./Mensagens.module.css"
+import Container from "../layout/Container"
+import MensagemCard from "../projects/MensagemCard"
 
 function Mensagens(){
     const [mensagens, setMensagens] = useState([])
@@ -20,12 +22,18 @@ function Mensagens(){
         },[])
 
     return(                  
-            mensagens.map((mensagem) =>
-            <section className={styles.project_details}>
-            <h1>{mensagem.name}</h1>
-            <h2>{mensagem.email}</h2>
-            <p>{mensagem.msg}</p>
-            </section>)
+        <section className={styles.mensagem_section}>
+            {mensagens.length > 0 &&
+                mensagens.map((mensagem) =>
+                    <MensagemCard
+                        id={mensagem.id}
+                        name={mensagem.name}
+                        email={mensagem.email}
+                        msg={mensagem.msg}
+                        key={mensagem.id}
+                    />)
+            }
+        </section>
         )    
 
 }

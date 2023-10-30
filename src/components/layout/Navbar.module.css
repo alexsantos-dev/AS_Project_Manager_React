@@ -25,3 +25,14 @@
     color: #ffbb33;
     transition: .3s ease-in;
 }
+
+.not_icon{
+ top: 35px;
+ right: 64px;   
+ position: absolute;
+ font-size: .7em;
+ padding: 4px 8px;
+ color: white;
+ background: rgb(253, 73, 73);
+ border-radius: 50%;  
+}
