@@ -7,8 +7,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 333,
-      "services": [],
+      "cost": 7201,
+      "services": [
+        {
+          "name": "tsedwe",
+          "cost": "6868",
+          "description": "flings",
+          "id": "d7aba9a5-c666-4021-98b2-dc046e55653b"
+        }
+      ],
       "id": 1
     },
     {
@@ -78,24 +85,6 @@
       "id": 10
     },
     {
-      "name": "wefefwf",
-      "budget": "6",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 2,
-      "services": [
-        {
-          "name": "catar coco",
-          "cost": "2",
-          "description": "e isso memeo",
-          "id": "4298f7b5-a386-4b1b-b5b9-fb51416c8238"
-        }
-      ],
-      "id": 11
-    },
-    {
       "name": "teste alpha build 1",
       "budget": "617451874",
       "category": {
@@ -120,8 +109,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 10,
+      "services": [
+        {
+          "name": "catar coco",
+          "cost": "10",
+          "description": "coisar o coisa",
+          "id": "a63fc2de-c2b9-4f67-bbab-698e7c9fcaaa"
+        }
+      ],
       "id": 13
     }
   ],
@@ -141,6 +137,32 @@
     {
       "id": 4,
       "name": "Planejamento"
+    }
+  ],
+  "mensagens": [
+    {
+      "id": 0,
+      "name": "eu",
+      "email": "email@email.com",
+      "msg": "teste"
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
     }
   ]
 }
