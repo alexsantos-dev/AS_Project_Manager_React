@@ -1,11 +1,8 @@
 import MensagemForm from '../projects/MensagemForm';
 import styles from './NewProject.module.css'
-import { useNavigate } from 'react-router-dom'
 
 
 function Contact() {
-
-    const navigate = useNavigate();
 
     function createPost(mensagem) {
 
@@ -19,10 +16,11 @@ function Contact() {
             .then((resp) => resp.json())
             .then((data) => {
                 console.log(data)
-                navigate('/mensagens' , {state : {message: 'Mensagem enviada com sucesso!'}})
             })
             .catch((err) => console.log(err))
     }
+
+    
 
     return (
         <section className={styles.new_project_conteiner}>

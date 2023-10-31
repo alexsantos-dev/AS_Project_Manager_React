@@ -16,12 +16,11 @@ function Mensagens(){
         })
             .then((resp) => resp.json())
             .then((data) => {
-                console.log(data)
                 setMensagens(data)
                 setRemoveLoading(true)
             })
             .catch((err) => console.log(err))
-        },[])
+        }, [])
 
     return(                  
         <section className={styles.mensagem_section}>
@@ -37,7 +36,7 @@ function Mensagens(){
             }
             {!removeLoading && <Loading />}
                 {removeLoading && mensagens.length === 0 && (
-                    <p>Não há projetos cadastrados!</p>
+                    <p>Não há mensagens resgistradas!</p>
                 )}
         </section>
         )    

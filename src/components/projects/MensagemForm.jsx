@@ -10,7 +10,6 @@ function MensagemForm({ handleSubmit, btnText, projectData }) {
 
 
     const submit = (e) => {
-        e.preventDefault()
         handleSubmit(mensagem)
     }
 
