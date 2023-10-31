@@ -1,19 +1,25 @@
 .mensagem_card{
-    width: 364px;
+    width: 356px;
     height: 272px;
-    display: flex;
-    flex-direction: column;
-    border: dashed 4px #000000;
+    border: inset 2px #000000;
     border-radius: 4px;
     padding: 1em;
-    overflow: hidden;
-    background: #fff;
+    background: white;
+    background-size: contain;
+    margin-bottom: 24px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.325);
+    position: relative;
+    z-index: 2;
 }
 
 .mensagem_card h4{
     padding: .4em 0;
+    position: relative;
 }
 
 .mensagem_card p{
+    position: relative;
     padding-bottom: 1em;
+
 }
+

@@ -1,6 +1,11 @@
 .mensagem_section{
-    padding: 1%;
+    padding: 1.5%;
     width: 100%;
-    display: flex;
+    height: auto;
+    align-items: center;
     gap: 4%;
+    justify-content: left;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
