@@ -10,6 +10,7 @@ import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Project from './components/pages/Project'
 import Mensagens from './components/pages/Mensagens'
+import Mensagem from './components/pages/Mensagem'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/projects/:id' element={<Project/>}/>
           <Route path='/mensagens' element={<Mensagens/>}/>
+          <Route path='/mensagens/:id' element={<Mensagem/>}/>
         </Routes>
         </Container>
        <Footer/>  

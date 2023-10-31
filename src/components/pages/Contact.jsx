@@ -26,7 +26,7 @@ function Contact() {
         <section className={styles.new_project_conteiner}>
             <h1>Entre em contato</h1>
             <p>mande uma mensagem para obter suporte</p>
-            <MensagemForm handleSubmit={createPost} btnText="Enviar mensagem" />
+            <MensagemForm handleSubmit={createPost} btnText="Enviar"/>
         </section>
     )
 }

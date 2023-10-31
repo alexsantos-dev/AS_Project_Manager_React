@@ -3,13 +3,13 @@ import { useState } from "react"
 import SubmitButton from "../form/SubmitButton"
 import Input from "../form/Input"
 import styles from "./ProjectForm.module.css"
+import TextArea from "../form/TextArea"
 
 function MensagemForm({ handleSubmit, btnText, projectData }) {
 
     const [mensagem, setMensagem] = useState(projectData || {})
 
-
-    const submit = (e) => {
+     const submit = () => {
         handleSubmit(mensagem)
     }
 
@@ -35,12 +35,12 @@ function MensagemForm({ handleSubmit, btnText, projectData }) {
                 handleOnChange={handleChange}
                 value={mensagem.email ? mensagem.email : ''}
             />
-            <Input type="text"
-                text="Mensagem:"
-                name="msg"
-                placeholder="Insira sua mensagem..."
-                handleOnChange={handleChange}
-                value={mensagem.msg ? mensagem.msg : ''}
+            <TextArea
+                 text="Mensagem"   
+                 name="msg"
+                 placeholder="Insira sua mensagem..."
+                 handleOnChange={handleChange}
+                 value={mensagem.msg ? mensagem.msg : ''}
             />
             <SubmitButton text={btnText} />
         </form>

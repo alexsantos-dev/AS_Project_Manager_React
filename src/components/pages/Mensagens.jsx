@@ -22,6 +22,21 @@ function Mensagens(){
             .catch((err) => console.log(err))
         }, [])
 
+        function deleteMsg(id) {
+            fetch(`http://localhost:5000/mensagens/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+            })
+                .then((resp) => resp.json())
+                .then(() => {
+                    setMensagens(mensagens.filter((mensagem) => mensagem.id !== id))
+                })
+                .catch((err) => console.log(err))
+    
+        }
+
     return(                  
         <section className={styles.mensagem_section}>
             {mensagens.length > 0 &&
@@ -32,6 +47,7 @@ function Mensagens(){
                             email={mensagem.email}
                             msg={mensagem.msg}
                             key={mensagem.id}
+                            handleRemove={deleteMsg}
                         />)
             }
             {!removeLoading && <Loading />}

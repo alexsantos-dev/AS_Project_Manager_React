@@ -1,10 +1,11 @@
 .mensagem_card{
-    width: 356px;
-    height: 272px;
+    margin: 4% auto;
+    width: 800px;
+    height: 400px;
     border: inset 2px #000000;
     border-radius: 4px;
-    padding: 1em;
     overflow: hidden;
+    padding: 1em;
     background: white;
     background-size: contain;
     margin-bottom: 24px;
@@ -17,19 +18,20 @@
 }
 
 .mensagem_card p{
-    position: relative;
 }
 
 .mensagem_card_actions{
-    position: e;
-    margin-top: 2em;
+    margin-top: 10em;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .mensagem_card_actions a{
     position: absolute;
     z-index: 2;
+    top: 88%;
+    right: 0;
     text-decoration: none;
     border: none;
     background-color: #fff;
@@ -44,14 +46,8 @@
     justify-content: center;
     transition: .1s ease-in;
     border-radius: 4px;
-    top: 80%;
-    left: 4%;
 }
 .mensagem_card_actions button{
-    position: absolute;
-    z-index: 2;
-    top: 80%;
-    left: 36%;
     text-decoration: none;
     border: none;
     background-color: #222;
