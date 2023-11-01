@@ -13,12 +13,11 @@
     border: none;
     background-color: #fff;
     color: #222;
-    font-size: 1em;
     font-weight: 500;
-    padding: .6em .6em .6em .6em;
+    padding: .7em;
     cursor: pointer;
     margin-right: 1em;
-    border: 1px solid #222;
+    border: 1px solid #051226;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +27,13 @@
 }
 
 .title_cotainer a:hover{
-    border: solid 1px #222;
-    box-shadow: 3px 3px #222;
+    box-shadow: 0 0 4px  #7a7a7a;
+    border: solid 1px #2699d0;
+    box-shadow: 3px 3px #2699d0;
 }
 
 .title_cotainer svg{
-    color: #ffcc33;
+    color: #2699d0;
     margin-left: .4em;
-    font-size: 1.3em;
+    margin-top: .1em;
 }

@@ -17,10 +17,10 @@ function MensagemCard({ id, name, msg, email, handleRemove}) {
                 <h4>Mensagem: </h4><p>{msg}</p>
                 <div className={styles.mensagem_card_actions}>
                     <Link to={`/mensagens/${id}`}>
-                        <FaExpand /> Expandir
+                    Expandir<FaExpand /> 
                     </Link>
                     <button onClick={remove}>
-                        <BsFillTrashFill /> Excluir
+                    Excluir<BsFillTrashFill /> 
                     </button>
                 </div>
             </div>

@@ -1,13 +1,13 @@
 .mensagem_card{
     width: 356px;
     height: 272px;
-    border: inset 2px #000000;
+    border: inset 2px #051226;
     border-radius: 4px;
     padding: 1em;
     overflow: hidden;
     background: white;
     margin-bottom: 24px;
-    box-shadow: 3px 3px 3px#ffcc33;
+    box-shadow: 3px 3px 3px#2699d0;
     position: relative;
 }
 
@@ -34,10 +34,10 @@
     background-color: #fff;
     color: #222;
     font-size: .9em;
-    padding: .6em .6em .6em .4em;
+    padding: .7em;
     cursor: pointer;
     margin-right: 1em;
-    border: 1px solid #222;
+    border: 1px solid #051226;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,13 +53,13 @@
     left: 36%;
     text-decoration: none;
     border: none;
-    background-color: #222;
+    background-color: #051226;
     color: #fff;
     font-size: .9em;
-    padding: .6em .6em .6em .4em;
+    padding: .7em;
     cursor: pointer;
     margin-right: 1em;
-    border: 1px solid #222;
+    border: 1px solid #051226;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,16 +68,19 @@
 }
 
 .mensagem_card_actions svg{
-    margin-right: .4em;
-    color: #ffcc33;
+    margin-left: .5em;
+    margin-top: .1em;
+    color: #2699d0;
 }
 
 .mensagem_card_actions a:hover{
     box-shadow: 0 0 4px  #7a7a7a;
-    box-shadow: 3px 3px #222;
+    border: solid 1px #2699d0;
+    box-shadow: 3px 3px #2699d0;
 }
 .mensagem_card_actions button:hover{
     box-shadow: 0 0 4px  #7a7a7a;
-    box-shadow: 3px 3px #ffcc33
+    border: solid 1px #195380;
+    box-shadow: 3px 3px #195380;
 
 }

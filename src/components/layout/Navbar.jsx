@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Container from "./Container"
 import styles from "./Navbar.module.css"
-import logo from "../../assets/costs_logo.png"
+import logo from "../../assets/logo1.png"
 import Notifications from "./Notifications"
 
 
@@ -25,7 +25,7 @@ function Navbar() {
                         <Link to="/contact">Contato</Link>
                     </li>
                     <li className={styles.item}>
-                         <Link to="/mensagens">Mensagens                   <Notifications/></Link>
+                         <Link to="/mensagens">Mensagens                   </Link><Notifications/>
                     </li>                   
    
                 </ul>

@@ -4,12 +4,13 @@ import SubmitButton from "../form/SubmitButton"
 import Input from "../form/Input"
 import styles from "./ProjectForm.module.css"
 import TextArea from "../form/TextArea"
+import {FaRegPaperPlane} from "react-icons/fa6"
 
 function MensagemForm({ handleSubmit, btnText, projectData }) {
 
     const [mensagem, setMensagem] = useState(projectData || {})
 
-     const submit = () => {
+     const submit = (e) => {
         handleSubmit(mensagem)
     }
 
@@ -42,7 +43,7 @@ function MensagemForm({ handleSubmit, btnText, projectData }) {
                  handleOnChange={handleChange}
                  value={mensagem.msg ? mensagem.msg : ''}
             />
-            <SubmitButton text={btnText} />
+            <SubmitButton text={btnText} icon={<FaRegPaperPlane/>}/>
         </form>
     )
 }

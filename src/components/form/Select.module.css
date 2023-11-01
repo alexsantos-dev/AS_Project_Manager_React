@@ -20,9 +20,7 @@
 }
 
 .form_control option:checked{
-    background: #ffcc33;
+    background: #051226;
+    color: #fff;
 }
 
-.opt:hover{
-    background: #ffcc33;
-}

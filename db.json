@@ -1,33 +1,22 @@
 {
   "projects": [
     {
-      "name": "Frelisbelton",
-      "budget": "900",
+      "name": "Projetinx",
+      "budget": "1299000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "infra"
       },
-      "cost": 10,
+      "cost": 10000,
       "services": [
         {
-          "name": "catar coco",
-          "cost": "10",
-          "description": "coisar o coisa",
-          "id": "a63fc2de-c2b9-4f67-bbab-698e7c9fcaaa"
+          "name": "Contratar novo programador senior",
+          "cost": "10000",
+          "description": "contratar programador",
+          "id": "c09050ed-147e-4652-aeba-4fec6b0e742f"
         }
       ],
-      "id": 13
-    },
-    {
-      "name": "Growth Fitness",
-      "budget": "999999999999999999",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 14
+      "id": 15
     }
   ],
   "categories": [
@@ -52,7 +41,7 @@
     {
       "name": "Rian Alex Dos Santos Pereira",
       "email": "alexsantos.web.developer@gmail.com",
-      "msg": "cowchqcoqboyciqwvcqwq",
+      "msg": "ewefwef",
       "id": 1
     }
   ]

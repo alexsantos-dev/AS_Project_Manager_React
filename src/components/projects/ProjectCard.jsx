@@ -19,10 +19,10 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
                 </p>
                 <div className={styles.project_card_actions}>
                     <Link to={`/projects/${id}`}>
-                        <BsPencil /> Editar
+                    Editar<BsPencil />
                     </Link>
                     <button onClick={remove}>
-                        <BsFillTrashFill /> Excluir
+                    Excluir<BsFillTrashFill /> 
                     </button>
                 </div>
             </div>
