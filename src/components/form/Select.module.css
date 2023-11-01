@@ -4,6 +4,10 @@
     margin-bottom: 1em;
 }
 
+.form_control :only-child:hover{
+    background: #ffcc33;
+}
+
 .form_control label{
     margin-bottom: 0.6em;
     font-weight: bold;
@@ -15,3 +19,10 @@
     border: none;
 }
 
+.form_control option:checked{
+    background: #ffcc33;
+}
+
+.opt:hover{
+    background: #ffcc33;
+}

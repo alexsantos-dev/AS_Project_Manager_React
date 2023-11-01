@@ -51,9 +51,6 @@ function Mensagens(){
                         />)
             }
             {!removeLoading && <Loading />}
-                {removeLoading && mensagens.length === 0 && (
-                    <p>Não há mensagens resgistradas!</p>
-                )}
         </section>
         )    
 

@@ -1,11 +1,12 @@
 import Message from "../layout/Message"
-import { useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import styles from './Projects.module.css'
 import Container from '../layout/Container'
 import LinkButton from "../layout/LinkButton"
 import ProjectCard from "../projects/ProjectCard"
 import { useState, useEffect } from "react"
 import Loading from "../layout/Loading"
+import {FaFilePen} from "react-icons/fa6"
 
 function Projects() {
     const [projectMessage, setProjectMessage] = useState('')
@@ -57,7 +58,11 @@ function Projects() {
         <div className={styles.project_container}>
             <div className={styles.title_cotainer}>
                 <h1>Meus Projetos</h1>
-                <LinkButton to="/newproject" text="Criar Projeto" />
+                <Link to="/newproject">
+                Criar Projeto
+                    <FaFilePen/>
+                </Link>
+     
             </div>
             {message && <Message type="sucess" msg={message} />}
             {projectMessage && <Message type="sucess" msg={projectMessage} />}

@@ -19,26 +19,15 @@
       "id": 13
     },
     {
-      "name": "Rian Alex Dos Santos Pereira",
-      "budget": "99090",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 14
-    },
-    {
-      "name": "Rian Alex Dos Santos Pereira",
-      "budget": "09898",
+      "name": "Growth Fitness",
+      "budget": "999999999999999999",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 15
+      "id": 14
     }
   ],
   "categories": [
@@ -63,14 +52,8 @@
     {
       "name": "Rian Alex Dos Santos Pereira",
       "email": "alexsantos.web.developer@gmail.com",
-      "msg": "la ele 1000 vezes",
+      "msg": "cowchqcoqboyciqwvcqwq",
       "id": 1
-    },
-    {
-      "name": "Rian Alex Dos Santos Pereira",
-      "email": "alexsantos.web.developer@gmail.com",
-      "msg": "6rtrtcf",
-      "id": 2
     }
   ]
 }

@@ -6,7 +6,6 @@
     padding: 1em;
     overflow: hidden;
     background: white;
-    background-size: contain;
     margin-bottom: 24px;
     box-shadow: 3px 3px 3px#ffcc33;
     position: relative;
@@ -55,7 +54,7 @@
     text-decoration: none;
     border: none;
     background-color: #222;
-    color: #ffcc33;
+    color: #fff;
     font-size: .9em;
     padding: .6em .6em .6em .4em;
     cursor: pointer;
@@ -70,10 +69,15 @@
 
 .mensagem_card_actions svg{
     margin-right: .4em;
-
+    color: #ffcc33;
 }
 
-.mensagem_card_actions a:hover,
+.mensagem_card_actions a:hover{
+    box-shadow: 0 0 4px  #7a7a7a;
+    box-shadow: 3px 3px #222;
+}
 .mensagem_card_actions button:hover{
     box-shadow: 0 0 4px  #7a7a7a;
+    box-shadow: 3px 3px #ffcc33
+
 }
