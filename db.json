@@ -1,22 +1,15 @@
 {
   "projects": [
     {
-      "name": "Projetinx",
-      "budget": "1299000",
+      "name": "Santos's Construções",
+      "budget": "70000",
       "category": {
-        "id": "1",
-        "name": "infra"
+        "id": "3",
+        "name": "Design"
       },
-      "cost": 10000,
-      "services": [
-        {
-          "name": "Contratar novo programador senior",
-          "cost": "10000",
-          "description": "contratar programador",
-          "id": "c09050ed-147e-4652-aeba-4fec6b0e742f"
-        }
-      ],
-      "id": 15
+      "cost": 0,
+      "services": [],
+      "id": 1
     }
   ],
   "categories": [
@@ -39,16 +32,10 @@
   ],
   "mensagens": [
     {
-      "name": "Rian Alex Dos Santos Pereira",
-      "email": "alexsantos.web.developer@gmail.com",
-      "msg": "ewefwef",
+      "name": "Alex Santos",
+      "email": "teste@mail",
+      "msg": "Olá mundo! :)",
       "id": 1
-    },
-    {
-      "name": "Rian Alex Dos Santos Pereira",
-      "email": "alexsantos.web.developer@gmail.com",
-      "msg": "uciuyvciuviuvc",
-      "id": 2
     }
   ]
 }
